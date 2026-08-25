@@ -1,1 +1,1 @@
-# Repositório de estudos em Machine Learning
+# Repositório de estudos em Machine Learning/Data Science
