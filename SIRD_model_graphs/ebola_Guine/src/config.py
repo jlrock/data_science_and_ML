@@ -1,5 +1,5 @@
 HABITANTES = 12600000
-DATAPATH = "data/ebola_guinea.csv"
+DATAPATH = "data/dados_ebola_Guine.csv"
 
 # Cores
 AZUL = 'steelblue'

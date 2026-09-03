@@ -2,9 +2,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from matplotlib.animation import FuncAnimation
 from IPython.display import HTML
-from config import *
+from .config import *
 
-def plotar_grafico(df_dados: pd.DataFrame, titulo: str, y_scale: str, y_lim=(0, 1)):
+def plotar_grafico(df_dados: pd.DataFrame, titulo: str, y_scale: str, y_lim: tuple[2]):
     fig, ax = plt.subplots(figsize=(10,6))
     ax.set_xlim(0, len(df_dados) - 1)
     ax.set_ylim(*y_lim)
